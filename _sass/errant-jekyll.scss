@@ -50,7 +50,7 @@ $on-large:         $on-laptop !default;
 
 // Import partials.
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "errant-jekyll/base",
+  "errant-jekyll/layout",
+  "errant-jekyll/syntax-highlighting"
 ;
