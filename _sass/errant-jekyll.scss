@@ -369,7 +369,7 @@ a:link {
     color: inherit;
     text-decoration: none;
     font-style: normal;
-    border-bottom: dotted 2px blue;
+    border-bottom: dotted 2px;
 }
 
 a:visited {
@@ -465,5 +465,20 @@ tt {
 
 .post-link {
   margin-left: 1rem;
-  list-style-type: none;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    fill: currentColor;
+    padding-right: 5px;
+    vertical-align: text-bottom;
+    border-bottom-style: none;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+  margin: auto;
 }
