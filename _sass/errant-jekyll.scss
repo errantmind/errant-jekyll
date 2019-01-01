@@ -160,8 +160,6 @@
 
 body {
     animation: fadein 1s;
-    margin: 0px;
-    padding: 0px;
     height: auto;
     bottom: 0px;
     top: 0px;
@@ -184,7 +182,7 @@ body {
     }
 }
 
-body>* {
+body > * {
     font-family: Droid Serif, Georgia, serif;
     font-weight: normal;
     color: rgb(66, 66, 66);
@@ -250,7 +248,7 @@ h6 a {
 }
 
 h1 {
-    font-family: Open Sans;
+    font-family: Open Sans, Helvetica, Arial, Sans-Serif;
     font-weight: 800;
     border-top: 0.2rem inset black;
     font-size: 175%;
@@ -259,35 +257,35 @@ h1 {
 }
 
 h2 {
-    font-family: Open Sans;
+    font-family: Open Sans, Helvetica, Arial, Sans-Serif;
     font-weight: 800;
     font-size: 150%;
     margin-top: 1.5rem;
 }
 
 h3 {
-    font-family: Open Sans;
+    font-family: Open Sans, Helvetica, Arial, Sans-Serif;
     font-weight: 800;
     font-size: 130%;
     margin-top: 1.1rem;
 }
 
 h4 {
-    font-family: Open Sans;
+    font-family: Open Sans, Helvetica, Arial, Sans-Serif;
     font-weight: 700;
     font-size: 115%;
     margin-top: 0.8rem;
 }
 
 h5 {
-    font-family: Open Sans;
+    font-family: Open Sans, Helvetica, Arial, Sans-Serif;
     font-weight: 700;
     font-size: 105%;
     margin-top: 0.6rem;
 }
 
 h6 {
-    font-family: Open Sans;
+    font-family: Open Sans, Helvetica, Arial, Sans-Serif;
     font-weight: 700;
     font-size: 100%;
     margin-top: 0.5rem;
@@ -480,5 +478,7 @@ tt {
 img {
   max-width:100%;
   height:auto;
-  box-sizing: border-box;
+  // width: 100%;
+  // height: 100%;
+  object-fit: contain;
 }
