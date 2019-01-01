@@ -3,7 +3,7 @@ layout: default
 ---
 
 {%- if site.banner -%}
-  <img src="{{ site.banner }} "/>
+  <img src="{{ site.banner }}"/>
 {%- endif -%}
 
 {%- if page.title -%}
@@ -31,7 +31,7 @@ layout: default
     {%- endfor -%}
   </ul>
 
-  <br>
+  <br><br><br>
   <a class="noline" href="{{ "/feed.xml" | relative_url }}"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/errant-jekyll-si.svg#rss' | relative_url }}"></use></svg></a>
 {%- endif -%}
 
