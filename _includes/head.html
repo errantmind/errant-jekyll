@@ -314,7 +314,7 @@
         margin-left: 2rem;
     }
 
-    li>p {
+    li > p {
         margin-top: 0.25rem;
         margin-bottom: 0.25rem;
     }
@@ -436,36 +436,6 @@
         font-family: Inconsolata, Consolas, Courier, monospace !important;
     }
 
-    @media print {
-        html {
-            font-size: 13px;
-        }
-        main>ol:first-child {
-            margin-top: 0px;
-        }
-        a[href]::after {
-            font-style: normal;
-            content: none;
-            color: inherit;
-        }
-        h1+*,
-        h2+*,
-        h3+*,
-        h4+*,
-        h5+*,
-        h6+*,
-        table,
-        pre {
-            break-inside: avoid;
-        }
-        pre {
-            word-wrap: break-word;
-        }
-        body {
-            animation: none;
-        }
-    }
-
     .post-link {
       margin-left: 1rem;
     }
@@ -491,7 +461,7 @@
       height:auto;
       object-fit: contain;
       display: block;
-      margin: 0 auto;
+      margin: 0.25rem auto;
     }
 
   </style>
