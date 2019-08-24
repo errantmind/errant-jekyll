@@ -1,5 +1,4 @@
 # Copy/Overwrite this file in your project
-
 title: Your awesome title
 author: GitHub User
 email: your-email@domain.com
@@ -10,9 +9,9 @@ description: > # this means to ignore newlines until "twitter_username:"
 banner: "/logo.png"
 
 # social links
-twitter_username: jekyllrb
-github_username:  jekyll
-rss: rss
+# twitter_username: jekyllrb
+# github_username:  jekyll
+# rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
