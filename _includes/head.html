@@ -4,6 +4,35 @@
 <!--   <meta name="viewport" content="width=device-width, initial-scale=1">  -->
   {%- seo -%}
   <style>
+
+    @font-face {
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-display: auto;
+      src: local('Source Serif Pro'), local('SourceSerifPro-Regular'), url({{  "assets/fonts/source-serif-pro-regular.woff2"  | relative_url }}) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      font-weight: 600;
+      font-display: auto;
+      src: local('Source Serif Pro Semibold'), local('SourceSerifPro-Semibold'), url({{  "assets/fonts/source-serif-pro-semi-bold.woff2" | relative_url }}) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-display: auto;
+      src: local('Source Serif Pro Bold'), local('SourceSerifPro-Bold'), url({{  "assets/fonts/source-serif-pro-bold.woff2" | relative_url }}) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+
     @font-face {
       font-family: 'Open Sans';
       font-style: normal;
@@ -83,9 +112,9 @@
     }
 
     body > * {
-        font-family: Droid Serif, Georgia, serif;
-        font-weight: normal;
-        color: rgb(33, 33, 33);
+        font-family: Source Serif Pro, Droid Serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     main {
@@ -215,8 +244,8 @@
     ol li::before {
       content: counter(section) ".";
       counter-increment: section 1;
-      font-size: 80%;
-      margin-top: 0.19rem;
+      /*font-size: 80%;*/
+      /*margin-top: 0.17rem;*/
       position: absolute;
       margin-left: -1.5rem;
     }
